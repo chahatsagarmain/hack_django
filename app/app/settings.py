@@ -132,3 +132,5 @@ REST_FRAMEWORK = {
 }
 
 AUTH_USER_MODEL = "auth_app.CustomUser"
+
+AUTHENTICATION_BACKENDS = ['auth_app.backends.EmailBackend']
